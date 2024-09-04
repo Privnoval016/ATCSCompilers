@@ -1,0 +1,2 @@
+WRITELN(9 mod 4);
+.

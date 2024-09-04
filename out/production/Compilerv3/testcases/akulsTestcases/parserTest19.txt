@@ -1,0 +1,15 @@
+VAR x;
+PROCEDURE foo();
+    BEGIN
+        x:=2;
+        ignore:=bar();
+    END;
+PROCEDURE bar();
+    BEGIN
+        x:=3;
+    END;
+BEGIN
+    x:=1;
+    ignore:=foo();
+    WRITELN(x);
+END;

@@ -1,0 +1,22 @@
+VAR i;
+PROCEDURE max(x, y);
+    BEGIN
+        max := x;
+        IF y > x THEN max := y;
+    END;
+
+PROCEDURE addThree(z);
+    BEGIN
+        z := z + 3;
+        WRITELN(z);
+    END;
+
+BEGIN
+    WRITELN(max(3, 5));
+
+    ignore := addThree(0);
+
+    FOR i := 1 TO 10 DO
+        WRITELN(i);
+END;
+.

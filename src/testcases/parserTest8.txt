@@ -1,0 +1,69 @@
+PROCEDURE foo();
+BEGIN
+    x:=2;
+    ignore:=bar();
+END;
+
+PROCEDURE bar();
+BEGIN
+    x:=3;
+END;
+
+BEGIN
+    x:=1;
+    ignore:=foo();
+    WRITELN(x);
+END;
+
+/*
+PROCEDURE Add(y,w,z);
+BEGIN
+	WRITELN(y);
+	WRITELN(w);
+	WRITELN(Bad(1,2,3));
+	x := x + y;
+END;
+
+PROCEDURE Bad(y,w,z);
+BEGIN
+	WRITELN(y);
+	WRITELN(w);
+	WRITELN(z);
+	x := x + y;
+END;
+
+PROCEDURE Sad(y,w,z);
+BEGIN
+	WRITELN(y);
+	WRITELN(w);
+	WRITELN(z);
+	x := x + y;
+END;
+
+BEGIN
+	x := 2;
+	y := x + 1;
+	x := x + y;
+	WRITELN(x * y);
+	IF x > y THEN
+	BEGIN
+		WRITELN(x);
+		WRITELN(y);
+	END;
+	x := 0;
+	WHILE x < 10 DO
+	BEGIN
+		WRITELN(x);
+		x := x + 1;
+	END;
+	WRITELN(y);
+	ignore := Add(4,x,y);
+	WRITELN(x);
+
+END;
+.
+.
+.
+.
+
+*/

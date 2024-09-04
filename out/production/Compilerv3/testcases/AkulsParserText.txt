@@ -1,0 +1,72 @@
+PROCEDURE max(x, y);
+BEGIN
+    max := x;
+    IF y > x THEN max := y;
+END;
+
+BEGIN
+BEGIN
+BEGIN
+     BEGIN
+     BEGIN
+     BEGIN
+          BEGIN
+          BEGIN
+          BEGIN
+               BEGIN
+               BEGIN
+               BEGIN
+                    BEGIN
+                    BEGIN
+                    BEGIN
+                         BEGIN
+                         BEGIN
+                         BEGIN
+                              BEGIN
+                              BEGIN
+                              BEGIN
+                                   BEGIN
+                                   BEGIN
+x:=-(-(-(-(-(-(-(-(-----10+4*4))))))));
+IF x > 0 THEN
+  x:=x+1;
+ELSE
+  /*AMONGUSSSSS*/
+                                                                                            BEGIN
+  x:=x-1;
+  IF x < 0 THEN
+    x:=x+1;
+  ELSE
+    x:=x-1;
+  END;
+
+WRITELN(x);
+WRITELN(max(x, y));
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;
+END;.
+END;
+END;
+END;
+END;
+.

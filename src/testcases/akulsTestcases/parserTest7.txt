@@ -1,0 +1,15 @@
+PROCEDURE max3(x, y, z);
+BEGIN
+max3 := max2(max2(x, y), z);
+END;
+
+PROCEDURE max2(x, y);
+BEGIN
+max2 := x;
+IF y > x THEN max2 := y;
+END;
+
+BEGIN
+WRITELN(max3(7, 2, 14));
+END;
+.

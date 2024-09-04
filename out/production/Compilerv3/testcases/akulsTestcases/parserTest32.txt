@@ -1,0 +1,13 @@
+VAR x, ignore;
+PROCEDURE foo(x, y);
+    BEGIN
+        x := x + 5;
+        WRITELN(x);
+        WRITELN(y);
+    END;
+
+BEGIN
+    x := 2;
+    ignore := foo(x, 5);
+    WRITELN(x);
+END;

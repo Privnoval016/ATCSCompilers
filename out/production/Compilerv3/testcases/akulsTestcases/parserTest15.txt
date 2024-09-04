@@ -1,0 +1,8 @@
+VAR x, y;
+PROCEDURE max(x, y);
+BEGIN
+max := x;
+IF y > x THEN max := y;
+END;
+WRITELN(max(3, 5));
+.

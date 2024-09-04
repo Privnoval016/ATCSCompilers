@@ -1,0 +1,32 @@
+BEGIN
+	VAR x;
+	VAR y;
+	x := 2;
+	y := x + 1;
+	x := x + y;
+	WRITELN(x * y);
+	IF x > y THEN 
+	BEGIN
+		WRITELN(x);
+		WRITELN(y);
+	END;
+	BEGIN
+     	IF 14 = 14 THEN
+     	BEGIN
+         	IF 14 <> 14 THEN WRITELN(3);
+         	IF 14 <= 14 THEN WRITELN(4);
+     	END;
+     	IF 15 > 14 THEN WRITELN(5);
+   	END;
+
+	VAR count;
+   	BEGIN
+     		count := 1;
+     		WHILE count <= 15 DO
+     		BEGIN
+        		WRITELN(count);
+        		count := count + 1;
+     		END;
+	END; 
+END;
+.

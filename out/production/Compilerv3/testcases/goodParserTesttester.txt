@@ -1,0 +1,15 @@
+VAR ignore;
+PROCEDURE fib(x);
+BEGIN
+IF x < 2 THEN
+BEGIN
+fib := x;
+END;
+IF x >= 2 THEN
+BEGIN
+fib := fib(x-1) + fib(x-2);
+END;
+END;
+BEGIN
+WRITELN(fib(5));
+END;

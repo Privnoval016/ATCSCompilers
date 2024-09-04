@@ -1,0 +1,7 @@
+PROCEDURE foo(a);
+BEGIN
+WRITELN(10);
+END;
+BEGIN
+ignore:=foo(10);
+END;
